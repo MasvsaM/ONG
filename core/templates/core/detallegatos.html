@@ -1,0 +1,49 @@
+{% extends 'core/layout.html' %}
+
+{% block content %}
+    <main>
+        {% load static %} 
+        <section class="py-5 text-center container">
+            <h1>¡Detalle de Perrito! </h1>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-8">
+                            <img src="{% static 'img/gatos/gato5.jpg' %}" class="img-fluid " alt=" ... ">
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">Datos Principales</h5><br>
+                                <p class="card-text ">NOMBRE: NALA</p>
+                                <p class="card-text ">EDAD: 1 AÑOS</p>
+                                <p class="card-text ">GENERO: HEMBRA</p>
+                                <p class="card-text "><small class="text-muted ">Datos modificados el 21-03-2023</small></p>
+                            </div>
+
+                            <div class="card-body ">
+                                <h5 class="card-title ">Mas Información</h5><br>
+                                <p class="card-text ">ESTERILIZADO: SI</p>
+                                <p class="card-text ">COMUNA: MAIPU</p>
+                                <p class="card-text ">NUMERO CHIP: 123456789</p>
+
+                                <p class="card-text "><small class="text-muted ">Datos modificados el 21-03-2023</small></p>
+
+                                <a href="gatos.html" class="btn btn-primary ">Volver</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        </div>
+
+    </main>
+{% endblock %}

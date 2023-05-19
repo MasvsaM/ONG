@@ -1,0 +1,133 @@
+{% extends 'core/layout.html' %}
+
+{% block content %}
+    <main>
+        {% load static %} 
+        <section class="py-5 text-center container">
+            <h1>¡Adopta un Gatito! </h1>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{% static 'img/gatos/gato1.jpg' %}" class="img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Comentario de ejemplo para esta pagina web, el cual es replicado en todos los contenidos.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="{% url 'detallegatos' %}" class="btn btn-primary">Ver</a>
+
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{% static 'img/gatos/gato2.jpg' %}" class="img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Comentario de ejemplo para esta pagina web, el cual es replicado en todos los contenidos.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="{% url 'detallegatos' %}" class="btn btn-primary">Ver</a>
+
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{% static 'img/gatos/gato5.jpg' %}" class="img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Comentario de ejemplo para esta pagina web, el cual es replicado en todos los contenidos.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="{% url 'detallegatos' %}" class="btn btn-primary">Ver</a>
+
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{% static 'img/gatos/gato4.jpg' %}" class="img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Comentario de ejemplo para esta pagina web, el cual es replicado en todos los contenidos.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="{% url 'detallegatos' %}" class="btn btn-primary">Ver</a>
+
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{% static 'img/gatos/gato5.jpg' %}" class="img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Comentario de ejemplo para esta pagina web, el cual es replicado en todos los contenidos.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="{% url 'detallegatos' %}" class="btn btn-primary">Ver</a>
+
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{% static 'img/gatos/gato1.jpg' %}" class="img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Comentario de ejemplo para esta pagina web, el cual es replicado en todos los contenidos.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="{% url 'detallegatos' %}" class="btn btn-primary">Ver</a>
+
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="mx-auto">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link" href="#">Antes</a></li>
+                                <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+{% endblock %}
